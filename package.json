@@ -31,7 +31,8 @@
     "rules": {
       "import/no-unresolved": 0,
       "import/prefer-default-export": 0,
-      "react/no-array-index-key": 0
+      "react/no-array-index-key": 0,
+      "func-names": 0
     }
   },
   "browserslist": {
