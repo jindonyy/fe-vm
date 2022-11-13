@@ -10,7 +10,7 @@ export default function MoneySlot({ inputPay, updateInputPay, resetInputPay }) {
 
   const handleChangeMoneyInput = ({ target }) => updateInputPay(target.value);
 
-  useEffect(() => resetInputPay(0), [finalPay]);
+  useEffect(() => resetInputPay(0), [finalPay, resetInputPay]);
 
   return (
     <Container>
